@@ -1,12 +1,9 @@
 var d = new Date();
-d.getDay();
+var huidigedag = d.getDay();
 
 
-if(d == "6" ){
+if(huidigedag == 6 || huidigedag == 0 ){
     console.log("Lekker uitslapen");
-}else if(d == "0"){
-    console.log("Lekker uitslapen");
-}
-else {
+} else {
     console.log("Ik moet naar school");
 }
